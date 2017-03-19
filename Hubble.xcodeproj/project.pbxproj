@@ -7,21 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14AC1245EE774C14AD33D136 /* Pods_Hubble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B24629153835DD3CD197B9 /* Pods_Hubble.framework */; };
+		C5293CD81E7E34C90004A613 /* rotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5293CD71E7E34C90004A613 /* rotateView.swift */; };
 		C5EB03921E7E216A00911C01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB03911E7E216A00911C01 /* AppDelegate.swift */; };
-		C5EB03941E7E216A00911C01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB03931E7E216A00911C01 /* ViewController.swift */; };
 		C5EB03971E7E216A00911C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5EB03951E7E216A00911C01 /* Main.storyboard */; };
 		C5EB03991E7E216A00911C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5EB03981E7E216A00911C01 /* Assets.xcassets */; };
 		C5EB039C1E7E216A00911C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5EB039A1E7E216A00911C01 /* LaunchScreen.storyboard */; };
+		C5EB03A41E7E220900911C01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5EB03A31E7E220900911C01 /* GoogleService-Info.plist */; };
+		C5EB03A91E7E268F00911C01 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB03A81E7E268F00911C01 /* LoginVC.swift */; };
+		C5EB03AB1E7E271E00911C01 /* fieldShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB03AA1E7E271E00911C01 /* fieldShadow.swift */; };
+		C5EB03AE1E7E277900911C01 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB03AD1E7E277900911C01 /* constants.swift */; };
+		C5EB03B21E7E288B00911C01 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB03B11E7E288B00911C01 /* DataServices.swift */; };
+		C5EB03B41E7E32AD00911C01 /* LoadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB03B31E7E32AD00911C01 /* LoadVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00D0C2A2B9DFC4EB170866B7 /* Pods-Hubble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubble.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hubble/Pods-Hubble.release.xcconfig"; sourceTree = "<group>"; };
+		6BD33AC21CE68BC782E6D656 /* Pods-Hubble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hubble/Pods-Hubble.debug.xcconfig"; sourceTree = "<group>"; };
+		C5293CD71E7E34C90004A613 /* rotateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rotateView.swift; sourceTree = "<group>"; };
 		C5EB038E1E7E216A00911C01 /* Hubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EB03911E7E216A00911C01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5EB03931E7E216A00911C01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5EB03961E7E216A00911C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5EB03981E7E216A00911C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5EB039B1E7E216A00911C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5EB039D1E7E216A00911C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5EB03A31E7E220900911C01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5EB03A81E7E268F00911C01 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C5EB03AA1E7E271E00911C01 /* fieldShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fieldShadow.swift; sourceTree = "<group>"; };
+		C5EB03AD1E7E277900911C01 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		C5EB03AF1E7E27A700911C01 /* Hubble.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hubble.entitlements; sourceTree = "<group>"; };
+		C5EB03B11E7E288B00911C01 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		C5EB03B31E7E32AD00911C01 /* LoadVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadVC.swift; sourceTree = "<group>"; };
+		D8B24629153835DD3CD197B9 /* Pods_Hubble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hubble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AC1245EE774C14AD33D136 /* Pods_Hubble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F114FE3E0F3D82D720F86E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BD33AC21CE68BC782E6D656 /* Pods-Hubble.debug.xcconfig */,
+				00D0C2A2B9DFC4EB170866B7 /* Pods-Hubble.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FC2A021AA597395CD84ED9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8B24629153835DD3CD197B9 /* Pods_Hubble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5EB03851E7E216A00911C01 = {
 			isa = PBXGroup;
 			children = (
 				C5EB03901E7E216A00911C01 /* Hubble */,
 				C5EB038F1E7E216A00911C01 /* Products */,
+				2F114FE3E0F3D82D720F86E7 /* Pods */,
+				9FC2A021AA597395CD84ED9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,61 @@
 		C5EB03901E7E216A00911C01 /* Hubble */ = {
 			isa = PBXGroup;
 			children = (
+				C5EB03AF1E7E27A700911C01 /* Hubble.entitlements */,
+				C5EB03B01E7E286E00911C01 /* Services */,
+				C5EB03AC1E7E276C00911C01 /* Util */,
+				C5EB03A71E7E267600911C01 /* Controller */,
+				C5EB03A61E7E267100911C01 /* View */,
+				C5EB03A51E7E266B00911C01 /* Model */,
 				C5EB03911E7E216A00911C01 /* AppDelegate.swift */,
-				C5EB03931E7E216A00911C01 /* ViewController.swift */,
 				C5EB03951E7E216A00911C01 /* Main.storyboard */,
 				C5EB03981E7E216A00911C01 /* Assets.xcassets */,
 				C5EB039A1E7E216A00911C01 /* LaunchScreen.storyboard */,
 				C5EB039D1E7E216A00911C01 /* Info.plist */,
+				C5EB03A31E7E220900911C01 /* GoogleService-Info.plist */,
 			);
 			path = Hubble;
+			sourceTree = "<group>";
+		};
+		C5EB03A51E7E266B00911C01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C5EB03A61E7E267100911C01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5EB03AA1E7E271E00911C01 /* fieldShadow.swift */,
+				C5293CD71E7E34C90004A613 /* rotateView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C5EB03A71E7E267600911C01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5EB03A81E7E268F00911C01 /* LoginVC.swift */,
+				C5EB03B31E7E32AD00911C01 /* LoadVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C5EB03AC1E7E276C00911C01 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C5EB03AD1E7E277900911C01 /* constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		C5EB03B01E7E286E00911C01 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C5EB03B11E7E288B00911C01 /* DataServices.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5EB03A01E7E216A00911C01 /* Build configuration list for PBXNativeTarget "Hubble" */;
 			buildPhases = (
+				E223A1BAD2AFCAEF0FEFAA41 /* [CP] Check Pods Manifest.lock */,
 				C5EB038A1E7E216A00911C01 /* Sources */,
 				C5EB038B1E7E216A00911C01 /* Frameworks */,
 				C5EB038C1E7E216A00911C01 /* Resources */,
+				C49CD2A706397A19F414BC52 /* [CP] Embed Pods Frameworks */,
+				D54A5F02A44642FEFF73D295 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +185,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3PG9YTX9TD;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -126,19 +218,73 @@
 			files = (
 				C5EB039C1E7E216A00911C01 /* LaunchScreen.storyboard in Resources */,
 				C5EB03991E7E216A00911C01 /* Assets.xcassets in Resources */,
+				C5EB03A41E7E220900911C01 /* GoogleService-Info.plist in Resources */,
 				C5EB03971E7E216A00911C01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C49CD2A706397A19F414BC52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hubble/Pods-Hubble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54A5F02A44642FEFF73D295 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hubble/Pods-Hubble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E223A1BAD2AFCAEF0FEFAA41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5EB038A1E7E216A00911C01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5EB03941E7E216A00911C01 /* ViewController.swift in Sources */,
+				C5EB03B21E7E288B00911C01 /* DataServices.swift in Sources */,
+				C5293CD81E7E34C90004A613 /* rotateView.swift in Sources */,
+				C5EB03A91E7E268F00911C01 /* LoginVC.swift in Sources */,
+				C5EB03B41E7E32AD00911C01 /* LoadVC.swift in Sources */,
+				C5EB03AB1E7E271E00911C01 /* fieldShadow.swift in Sources */,
 				C5EB03921E7E216A00911C01 /* AppDelegate.swift in Sources */,
+				C5EB03AE1E7E277900911C01 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +405,10 @@
 		};
 		C5EB03A11E7E216A00911C01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD33AC21CE68BC782E6D656 /* Pods-Hubble.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hubble/Hubble.entitlements;
 				DEVELOPMENT_TEAM = 3PG9YTX9TD;
 				INFOPLIST_FILE = Hubble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -272,8 +420,10 @@
 		};
 		C5EB03A21E7E216A00911C01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D0C2A2B9DFC4EB170866B7 /* Pods-Hubble.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hubble/Hubble.entitlements;
 				DEVELOPMENT_TEAM = 3PG9YTX9TD;
 				INFOPLIST_FILE = Hubble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -302,6 +452,7 @@
 				C5EB03A21E7E216A00911C01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
